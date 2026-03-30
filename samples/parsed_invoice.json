@@ -1,0 +1,41 @@
+{
+    "invoiceNumber": "IN25MH2504251",
+    "poNumber": "CI4PO05788",
+    "invoiceDate": "2026-03-24",
+    "vendorName": "Ample Foods Private Limited",
+    "vendorGstin": "27ABACA2423J1Z0",
+    "customerName": "Cloudstore Retail Private Limited",
+    "customerGstin": "27AAKCC0172C1Z1",
+    "items": [
+        {
+            "itemCode": "FG-P-F-0503",
+            "description": "PSM Cheesy Spicy Vegetable Momos 24Pcs",
+            "quantity": 50,
+            "unitPrice": 220.76,
+            "hsnCode": "19022010",
+            "taxableValue": 11038.00,
+            "cgstRate": 2.50,
+            "cgstAmount": 275.95,
+            "sgstRate": 2.50,
+            "sgstAmount": 275.95,
+            "totalAmount": 11589.90
+        },
+        {
+            "itemCode": "FG-M-F-1703",
+            "description": "Meatigo RTC Meatigo Hot Wings 250g",
+            "quantity": 75,
+            "unitPrice": 126.67,
+            "hsnCode": "16023200",
+            "taxableValue": 9500.25,
+            "cgstRate": 2.50,
+            "cgstAmount": 237.51,
+            "sgstRate": 2.50,
+            "sgstAmount": 237.51,
+            "totalAmount": 9975.26
+        }
+    ],
+    "totalTaxableValue": 743263.69,
+    "totalCgst": 18581.59,
+    "totalSgst": 18581.59,
+    "grandTotal": 780426.87
+}

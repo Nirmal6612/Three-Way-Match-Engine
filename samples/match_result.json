@@ -1,0 +1,61 @@
+{
+    "poNumber": "CI4PO05788",
+    "status": "partially_matched",
+    "documents": {
+        "po": {
+            "id": "665a1234abcd5678ef901234",
+            "poNumber": "CI4PO05788",
+            "poDate": "2026-03-17T00:00:00.000Z"
+        },
+        "grns": [
+            {
+                "id": "665a1234abcd5678ef905678",
+                "grnNumber": "CI4000020234",
+                "grnDate": "2026-03-24T00:00:00.000Z"
+            }
+        ],
+        "invoices": [
+            {
+                "id": "665a1234abcd5678ef909012",
+                "invoiceNumber": "IN25MH2504251",
+                "invoiceDate": "2026-03-24T00:00:00.000Z"
+            }
+        ]
+    },
+    "mismatches": [
+        {
+            "type": "invoice_date_after_po_date",
+            "message": "Invoice IN25MH2504251 date (2026-03-24) is after PO date (2026-03-17)"
+        }
+    ],
+    "itemDetails": [
+        {
+            "itemCode": "11423",
+            "description": "Cheesy Spicy Veg Momos 24.0 Pieces",
+            "poQuantity": 50,
+            "totalGrnQuantity": 50,
+            "totalInvoiceQuantity": 50,
+            "status": "matched",
+            "mismatches": []
+        },
+        {
+            "itemCode": "18003",
+            "description": "Meatigo Chicken Curry Cut Skinless Frozen 450.0 g",
+            "poQuantity": 120,
+            "totalGrnQuantity": 30,
+            "totalInvoiceQuantity": 30,
+            "status": "matched",
+            "mismatches": []
+        },
+        {
+            "itemCode": "18004",
+            "description": "Meatigo Chicken Boneless Breast Frozen 450.0 g",
+            "poQuantity": 540,
+            "totalGrnQuantity": 30,
+            "totalInvoiceQuantity": 30,
+            "status": "matched",
+            "mismatches": []
+        }
+    ],
+    "summary": "28 items matched, 12 items have mismatches"
+}

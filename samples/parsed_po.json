@@ -1,0 +1,43 @@
+{
+    "poNumber": "CI4PO05788",
+    "poDate": "2026-03-17",
+    "vendorName": "M/s AFP",
+    "vendorAddress": "GALA NO 5/17 AB, Mumbai, Maharashtra, India-400072",
+    "vendorGstin": "27ABACA2423J1Z0",
+    "billingAddress": "CLOUDSTORE RETAIL PRIVATE LIMITED, B-400, One K- Square Park, K-Square Industrial & Logistics Park, Before Padgha Toll naka, Nashik-Mumbai Highway, Padgha-Bhiwandi, Mumbai, Maharashtra - 421101, India",
+    "shippingAddress": "CLOUDSTORE RETAIL PRIVATE LIMITED, B-400, One K- Square Park, K-Square Industrial & Logistics Park, Before Padgha Toll naka, Nashik-Mumbai Highway, Padgha-Bhiwandi, Mumbai, Maharashtra - 421101, India",
+    "paymentTerms": "0 Days",
+    "expectedDeliveryDate": "2026-04-02",
+    "items": [
+        {
+            "itemCode": "11423",
+            "description": "Cheesy Spicy Veg Momos 24.0 Pieces",
+            "quantity": 50,
+            "unitPrice": 220.762,
+            "hsnCode": "19022010",
+            "mrp": 305.00,
+            "taxableValue": 11038.10,
+            "totalAmount": 11590.00
+        },
+        {
+            "itemCode": "11797",
+            "description": "Meatigo Hot Wings 250.0 g",
+            "quantity": 75,
+            "unitPrice": 126.667,
+            "hsnCode": "02071400",
+            "mrp": 175.00,
+            "taxableValue": 9500.00,
+            "totalAmount": 9975.00
+        },
+        {
+            "itemCode": "18003",
+            "description": "Meatigo Chicken Curry Cut Skinless Frozen 450.0 g",
+            "quantity": 120,
+            "unitPrice": 141.143,
+            "hsnCode": "02071300",
+            "mrp": 195.00,
+            "taxableValue": 16937.14,
+            "totalAmount": 17784.00
+        }
+    ]
+}
