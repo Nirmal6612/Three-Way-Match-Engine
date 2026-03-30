@@ -10,6 +10,16 @@ A backend service that allows users to upload Purchase Order (PO), Goods Receipt
 - **AI/ML**: Google Gemini API (`gemini-2.0-flash`) for PDF parsing
 - **Documentation**: Swagger/OpenAPI via swagger-jsdoc + swagger-ui-express
 
+## Known Issue
+
+This project uses Google Gemini API (free tier).
+Due to API rate limits and token limits, large document uploads may fail with a 429 error.
+
+In such cases:
+- Try smaller documents
+- Wait for quota reset
+- Or use a different API key / paid plan
+
 ## Quick Start
 
 ### Prerequisites
